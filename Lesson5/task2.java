@@ -69,8 +69,7 @@ public class task2 {
         (a, b) -> { throw new AssertionError(); }, 
         LinkedHashMap::new 
         )); 
-        
-        sortedStaff.entrySet().forEach(System.out::println);
+        System.out.println("Отсортированный список повторяющихся имен: "+sortedStaff);
         }
     }
 
